@@ -2,12 +2,12 @@
 set -e
 
 # social.sh installer
-# Usage: curl -fsSL https://github.com/senturySH/social.sh/releases/download/v0.0.0/install.sh | bash
+# Usage: curl -fsSL https://github.com/senturySH/social.sh-installer/releases/download/v0.0.0/install.sh | bash
 
 INSTALL_DIR="${SOCIAL_SH_INSTALL:-$HOME/.social-sh}"
 BIN_DIR="$INSTALL_DIR/bin"
 VERSION="${SOCIAL_SH_VERSION:-v0.0.0}"
-GITHUB_REPO="senturySH/social.sh"
+GITHUB_REPO="senturySH/social.sh-installer"
 RELEASE_BASE_URL="https://github.com/$GITHUB_REPO/releases/download/$VERSION"
 
 # Colors
